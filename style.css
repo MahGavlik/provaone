@@ -9,6 +9,8 @@ header {
     background-color: #c4a484;
     padding: 20px;
     text-align:center;
+    color: green;
+    font-family: Georgia, serif;
 }
 
 nav a {
@@ -58,9 +60,8 @@ input {
 
 a {
     text-decoration:none ;
-    padding: 10px;
-    background-color: black;
-    color: white;
+    padding: 50px;
+    color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
 }
