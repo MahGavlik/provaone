@@ -11,6 +11,16 @@ header {
     text-align:center;
 }
 
+nav a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
 nav button {
     margin: 5px;
     padding: 10px;
@@ -36,7 +46,18 @@ input {
     width: 250px;
 }
 
-button {
+.textos { 
+    display: block;
+    
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(144, 238, 144, 0.555);
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration:none ;
     padding: 10px;
     background-color: black;
     color: white;
@@ -45,14 +66,17 @@ button {
 }
 
 footer {
+    text-align: center;
     background-color: #c4a484;
     padding: 30px;
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
 
 footer img{
     width: 30px;
 }
 
-
-
+.imagemlinks {
+    width: 70px;
+}
