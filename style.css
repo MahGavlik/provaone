@@ -8,7 +8,7 @@ body {
 header {
     background-color: #c4a484;
     padding: 20px;
-    text-align:center;
+    text-align: center;
     color: green;
     font-family: Georgia, serif;
 }
@@ -32,6 +32,15 @@ nav button {
     color: white;
 }
 
+.col {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(144, 238, 144, 0.555);
+    text-decoration: none;
+    color: black;
+}
+
 .links a {
     display: block;
     padding: 10px;
@@ -41,6 +50,16 @@ nav button {
     color: black;
 }
 
+.noticiapg a {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    background-color: lightgreen;
+    text-decoration: none;
+    color: black;
+}
+
+
 input {
     display: block;
     margin: 10px auto;
@@ -48,18 +67,8 @@ input {
     width: 250px;
 }
 
-.textos { 
-    display: block;
-    
-    padding: 10px;
-    margin: 5px;
-    background-color: rgba(144, 238, 144, 0.555);
-    text-decoration: none;
-    color: black;
-}
-
 a {
-    text-decoration:none ;
+    text-decoration: none;
     padding: 50px;
     color: rgb(0, 0, 0);
     border: none;
@@ -74,10 +83,10 @@ footer {
     margin-bottom: 10px;
 }
 
-footer img{
+footer img {
     width: 30px;
 }
 
 .imagemlinks {
-    width: 70px;
+    display: block;
 }
